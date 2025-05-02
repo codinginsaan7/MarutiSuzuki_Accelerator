@@ -39,7 +39,7 @@ MarutiSuzuki_Accelerator/
 
 site can be accessed at:
 
-https://github.com/codinginsaan7/MarutiSuzuki_Accelerator.git
+https://codinginsaan7.github.io/MarutiSuzuki_Accelerator
 
 ```
 
