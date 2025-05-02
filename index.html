@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maruti Suzuki Accelerator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ipad-shell">
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <img src="images/logo.png" alt="Maruti Suzuki Logo" class="logo" />
+        <p class="brand-name">MARUTI SUZUKI</p>
+      </header>
+
+      <!-- Banner Section -->
+      <section class="banner">
+        <img src="images/accelerator-logo.png" alt="Accelerator Banner" class="banner-img" />
+      </section>
+
+      <!-- Form Section -->
+      <section class="form-section" id="formSection">
+        <div class="form-box">
+          <label for="nameDropdown">Please Select Your Name From The Dropdown</label>
+          <select id="nameDropdown">
+            <option value="" disabled selected>Name-Abc</option>
+            <option value="John">John Doe</option>
+            <option value="Jane">Jane Smith</option>
+            <option value="Alice">Alice Johnson</option>
+          </select>
+          <button onclick="proceed()">Proceed</button>
+        </div>
+      </section>    
+
+      <!-- Footer Icons -->
+      <div class="footer-icons">
+        <img src="images/footer-icons.png" alt="Footer Icons" />
+      </div>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>

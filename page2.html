@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Jury Panel</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <div class="ipad-shell">
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <img src="images/logo.png" alt="Maruti Suzuki Logo" class="logo" />
+        <p class="brand-name">MARUTI SUZUKI</p>
+      </header>
+      <div class="header-bar">
+        Thank you Mr. XYZ(Jury Member Name) San for taking out time from your busy schedule to be a jury member for the 9th cohort of Maruti Suzuki Accelerator Program (28th May 25th)
+      </div>
+      <p class="startup_heading">LIST OF STARTUPS</p>
+      
+
+      <!-- Collapsed view (carousel scroll) -->
+      <div class="startup-container collapsed" id="startupContainerCollapsed">
+        <div class="startup-scroller">
+          <div class="startup-grid" id="carouselGrid">
+            <!-- 26 icons × 2 for looping -->
+            <!-- Replace with your own logos -->
+            <!-- logo1 to logo26 twice -->
+            <!-- Sample (repeat for logo2..logo26) -->
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header1.png')">
+              <img src="logos/logo1.png" alt="Logo 1" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header2.png')">
+              <img src="logos/logo2.png" alt="Logo 2" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header3.png')">
+              <img src="logos/logo3.png" alt="Logo 3" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header4.png')">
+              <img src="logos/logo4.png" alt="Logo 4" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header5.png')">
+              <img src="logos/logo5.png" alt="Logo 5" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header6.png')">
+              <img src="logos/logo6.png" alt="Logo 6" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header7.png')">
+              <img src="logos/logo7.png" alt="Logo 7" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header8.png')">
+              <img src="logos/logo8.png" alt="Logo 8" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header9.png')">
+              <img src="logos/logo9.png" alt="Logo 9" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header10.png')">
+              <img src="logos/logo10.png" alt="Logo 10" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header11.png')">
+              <img src="logos/logo11.png" alt="Logo 11" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header12.png')">
+              <img src="logos/logo12.png" alt="Logo 12" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header13.png')">
+              <img src="logos/logo13.png" alt="Logo 13" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header14.png')">
+              <img src="logos/logo14.png" alt="Logo 14" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header15.png')">
+              <img src="logos/logo15.png" alt="Logo 15" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header16.png')">
+              <img src="logos/logo16.png" alt="Logo 16" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header17.png')">
+              <img src="logos/logo17.png" alt="Logo 17" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header18.png')">
+              <img src="logos/logo18.png" alt="Logo 18" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header19.png')">
+              <img src="logos/logo19.png" alt="Logo 19" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header20.png')">
+              <img src="logos/logo20.png" alt="Logo 20" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header21.png')">
+              <img src="logos/logo21.png" alt="Logo 21" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header22.png')">
+              <img src="logos/logo22.png" alt="Logo 22" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header23.png')">
+              <img src="logos/logo23.png" alt="Logo 23" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header24.png')">
+              <img src="logos/logo24.png" alt="Logo 24" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header25.png')">
+              <img src="logos/logo25.png" alt="Logo 25" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header26.png')">
+              <img src="logos/logo26.png" alt="Logo 26" />
+            </div>
+            <!-- ... repeat up to logo26 -->
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header1.png')">
+              <img src="logos/logo1.png" alt="Logo 1" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header2.png')">
+              <img src="logos/logo2.png" alt="Logo 2" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header3.png')">
+              <img src="logos/logo3.png" alt="Logo 3" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header4.png')">
+              <img src="logos/logo4.png" alt="Logo 4" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header5.png')">
+              <img src="logos/logo5.png" alt="Logo 5" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header6.png')">
+              <img src="logos/logo6.png" alt="Logo 6" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header7.png')">
+              <img src="logos/logo7.png" alt="Logo 7" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header8.png')">
+              <img src="logos/logo8.png" alt="Logo 8" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header9.png')">
+              <img src="logos/logo9.png" alt="Logo 9" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header10.png')">
+              <img src="logos/logo10.png" alt="Logo 10" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header11.png')">
+              <img src="logos/logo11.png" alt="Logo 11" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header12.png')">
+              <img src="logos/logo12.png" alt="Logo 12" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header13.png')">
+              <img src="logos/logo13.png" alt="Logo 13" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header14.png')">
+              <img src="logos/logo14.png" alt="Logo 14" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header15.png')">
+              <img src="logos/logo15.png" alt="Logo 15" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header16.png')">
+              <img src="logos/logo16.png" alt="Logo 16" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header17.png')">
+              <img src="logos/logo17.png" alt="Logo 17" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header18.png')">
+              <img src="logos/logo18.png" alt="Logo 18" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header19.png')">
+              <img src="logos/logo19.png" alt="Logo 19" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header20.png')">
+              <img src="logos/logo20.png" alt="Logo 20" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header21.png')">
+              <img src="logos/logo21.png" alt="Logo 21" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header22.png')">
+              <img src="logos/logo22.png" alt="Logo 22" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header23.png')">
+              <img src="logos/logo23.png" alt="Logo 23" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header24.png')">
+              <img src="logos/logo24.png" alt="Logo 24" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header25.png')">
+              <img src="logos/logo25.png" alt="Logo 25" />
+            </div>
+            <div class="startup" onclick="updateNowPresenting('logos/assessment-header26.png')">
+              <img src="logos/logo26.png" alt="Logo 26" />
+            </div>
+            <!-- ... repeat up to logo26 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Expanded view (grid layout) -->
+      <div class="startup-container expanded hidden" id="startupContainerExpanded">
+        <div class="startup-grid">
+          <!-- Only 26 icons once -->
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header1.png')">
+            <img src="logos/logo1.png" alt="Logo 1" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header2.png')">
+            <img src="logos/logo2.png" alt="Logo 2" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header3.png')">
+            <img src="logos/logo3.png" alt="Logo 3" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header4.png')">
+            <img src="logos/logo4.png" alt="Logo 4" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header5.png')">
+            <img src="logos/logo5.png" alt="Logo 5" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header6.png')">
+            <img src="logos/logo6.png" alt="Logo 6" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header7.png')">
+            <img src="logos/logo7.png" alt="Logo 7" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header8.png')">
+            <img src="logos/logo8.png" alt="Logo 8" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header9.png')">
+            <img src="logos/logo9.png" alt="Logo 9" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header10.png')">
+            <img src="logos/logo10.png" alt="Logo 10" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header11.png')">
+            <img src="logos/logo11.png" alt="Logo 11" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header12.png')">
+            <img src="logos/logo12.png" alt="Logo 12" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header13.png')">
+            <img src="logos/logo13.png" alt="Logo 13" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header14.png')">
+            <img src="logos/logo14.png" alt="Logo 14" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header15.png')">
+            <img src="logos/logo15.png" alt="Logo 15" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header16.png')">
+            <img src="logos/logo16.png" alt="Logo 16" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header17.png')">
+            <img src="logos/logo17.png" alt="Logo 17" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header18.png')">
+            <img src="logos/logo18.png" alt="Logo 18" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header19.png')">
+            <img src="logos/logo19.png" alt="Logo 19" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header20.png')">
+            <img src="logos/logo20.png" alt="Logo 20" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header21.png')">
+            <img src="logos/logo21.png" alt="Logo 21" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header22.png')">
+            <img src="logos/logo22.png" alt="Logo 22" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header23.png')">
+            <img src="logos/logo23.png" alt="Logo 23" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header24.png')">
+            <img src="logos/logo24.png" alt="Logo 24" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header25.png')">
+            <img src="logos/logo25.png" alt="Logo 25" />
+          </div>
+          <div class="startup" onclick="updateNowPresenting('logos/assessment-header26.png')">
+            <img src="logos/logo26.png" alt="Logo 26" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Toggle button -->
+      <button id="toggleArrow" class="arrow-btn">
+        <span class="arrow-icon">↓</span>
+      </button>
+      <!-- Scoring Panel -->
+      <div class="scorecard">
+      <!-- Scorecard Heading with Image -->
+      <!-- Assessment Card Header Image -->
+      <div class="assessment-header-img">
+        <img id="presentingLogo" src="logos/assessment-header1.png" class="presenting-image" alt="Now Presenting Logo">
+      </div>
+
+
+
+  <table class="score-table">
+    <thead>
+      <tr>
+        <th>SCORE AREAS</th>
+        <th>PARAMETERS FOR ASSESSMENT</th>
+        <th>SCORES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">TECHNOLOGY</td>
+        <td>How innovative and advanced is the startup’s technology?</td>
+        <td><input type="text"  /></td>
+      </tr>
+      <tr>
+        <td>How cost-effective is the technology in the long run?</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td rowspan="4">SOLUTION</td>
+        <td>How unique is the proposed solution?</td>
+        <td><input type="text"  /></td>
+      </tr>
+      <tr>
+        <td>Can the solution create value for MSIL?</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Was the startup able to effectively demonstrate their solution?</td>
+        <td><input type="text"  /></td>
+      </tr>
+      <tr>
+        <td>How well does the startup fit into the MSIL ecosystem as a vendor or partner?</td>
+        <td><input type="text"  /></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="total-score-row">
+    <span>Total score:</span>
+    <input type="text"  />
+  </div>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+  <button class="gray">Previous Startup</button>
+  <button class="blue" onclick="saveScores()">Save</button>
+  <button class="gray">Next Startup</button>
+</div>
+
+
+  </div>
+  
+  <!-- Modal Overlay -->
+  <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <p>Score saved</p>
+    </div>
+  </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
