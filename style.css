@@ -27,7 +27,7 @@ html, body {
   width: 834px;
   height: 1194px; /* 🔒 fixed height for iPad Pro 11" */
   /* max-height: 1194px; */
-  margin: 40px auto;
+  margin: 0px auto;
   background: white;
   border-radius: 44px;
   /* border: 18px solid #1c1c1e; */
