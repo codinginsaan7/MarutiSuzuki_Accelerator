@@ -78,7 +78,7 @@ html, body {
   flex: 1; /* take available height inside ipad-shell */
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none; /* hide scrollbar (Firefox) */
-  border-radius: 28px;
+  border-radius: 0px;
   /* box-sizing: border-box; */
 }
 
