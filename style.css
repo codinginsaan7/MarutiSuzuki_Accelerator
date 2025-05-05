@@ -30,7 +30,7 @@ html, body {
   margin: 40px auto;
   background: white;
   border-radius: 44px;
-  border: 18px solid #1c1c1e;
+  /* border: 18px solid #1c1c1e; */
   box-shadow:
     0 0 0 4px #99999933 inset,
     0 0 30px rgba(0, 0, 0, 0.4);
@@ -39,6 +39,36 @@ html, body {
   flex-direction: column;
   position: relative;
   flex-shrink: 0;
+}
+
+/* 📱 iPad Pro 11 Landscape mode: adjust shell dimensions */
+@media screen and (orientation: landscape) and (min-width: 834px) {
+  .ipad-shell {
+    width: 1194px;
+    height: 834px;
+    flex-direction: row; /* Optional: Change to row layout if needed */
+  }
+
+  .container {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  /* Adjust form box or other inner sections if needed */
+  .form-section {
+    padding: 20px;
+  }
+}
+
+/* ✅ Add a fallback for smaller devices */
+@media screen and (max-width: 834px) {
+  .ipad-shell {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    margin: 0;
+  }
 }
 
 .container {
